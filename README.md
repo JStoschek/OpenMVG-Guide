@@ -30,8 +30,15 @@ $ cd files/
 $ python3 run_OpenMVG_SfM.py
 ```
 
+#Info on Bash Commands
 
+Step 1: Intrinsics analysis: [openMVG_main_SfMInit_ImageListing](https://github.com/openMVG/openMVG/blob/develop/docs/sphinx/rst/software/SfM/SfMInit_ImageListing.rst)
 
+Step 2: Compute features: [openMVG_main_ComputeFeatures](https://github.com/openMVG/openMVG/blob/develop/docs/sphinx/rst/software/SfM/ComputeFeatures.rst)
 
+Step 4: Compute matches: [openMVG_main_ComputeMatches](https://github.com/openMVG/openMVG/blob/develop/docs/sphinx/rst/software/SfM/ComputeMatches.rst)
 
+Step 6: Do Sequential/Incremental reconstruction: [openMVG_main_SfM --sfm_engine INCREMENTAL](https://github.com/openMVG/openMVG/blob/develop/docs/sphinx/rst/software/SfM/IncrementalSfM.rst)
+
+Step 7: Colorize Structure: [openMVG_main_ComputeSfM_DataColor](https://github.com/openMVG/openMVG/blob/develop/docs/sphinx/rst/software/SfM/ComputeSfM_DataColor.rst)
 

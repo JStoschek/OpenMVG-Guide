@@ -2,8 +2,10 @@ import os
 import subprocess
 import sys
 
+# This script is an edited version of the SfM_SequentialPipeline.py script found in openMVG/src/software/SfM/SfM_SequentialPipeline.py.in
+
 # Set the directory paths
-input_dir = '/files/data/imagesBookshelf'  # Directory containing the input images
+input_dir = '/files/data/ImageDataset_SceauxCastle/images'  # Directory containing the input images
 output_dir = '/files/data'  # Directory for storing the script's output
 camera_file_params = '/files/data/sensor_width_camera_database.txt'  # Path to the camera sensor width database file
 
